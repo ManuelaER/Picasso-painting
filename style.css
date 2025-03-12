@@ -15,24 +15,35 @@ body {
     display: inline-flex;
     position: relative;
     z-index: 2;
+    align-items: flex-end;
 }
 
 .building1 {
     background-color: grey;
     height: 300px;
     width: 150px;
-    margin-top: 100px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.light {
+    background-color: rgb(158, 158, 23);
+    height: 25px;
+    width: 25px;
+    margin: 20px 10px 10px 10px;
 }
 
 .building2 {
     background-color: rgb(87, 87, 87);
     height: 250px;
     width: 120px;
-    margin-top: 160px;
+    margin-bottom: 25px;
 }
 
 .building3 {
-    background-color: rgb(171, 171, 171);
+    background-color: rgb(143, 143, 143);
     height: 400px;
     width: 130px;
 }
@@ -41,19 +52,74 @@ body {
     background-color: rgb(112, 112, 112);
     height: 200px;
     width: 100px;
-    margin-top: 220px;
+    margin-bottom: 15px;
 }
 
 .building5 {
+    background-color: rgb(126, 126, 126);
+    height: 380px;
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.building6 {
     background-color: rgb(65, 65, 65);
-    height: 400px;
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+.building7 {
+    background-color: rgb(103, 103, 103);
+    height: 280px;
     width: 150px;
+}
+
+.building8 {
+    background-color: rgb(126, 126, 126);
+    height: 400px;
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+.building9 {
+    background-color: rgb(87, 87, 87);
+    height: 380px;
+    width: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.building10 {
+    background-color: rgb(65, 65, 65);
+    height: 200px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.building11 {
+    background-color: rgb(143, 143, 143);
+    height: 350px;
+    width: 120px;
+}
+
+.building12 {
+    background-color: rgb(108, 108, 108);
+    height: 400px;
+    width: 120px;
+    margin-bottom: 15px;
 }
 
 .grass {
     background-color: green;
     height: 80px;
-    width: 100%;
+    width: 1520px;
     margin-top: -50px;
     position: relative;
     z-index: 1;
@@ -62,5 +128,14 @@ body {
 .water {
     background-color: blue;
     height: 80px;
-    width: 100%;
+    width: 1520px;
+}
+
+section {
+    border: double white 10px;
+    margin: 50px;
+    padding: 50px;
+    display: inline-block;
+    font-family: lucida handwriting;
+    color: white;
 }
