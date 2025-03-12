@@ -1,0 +1,66 @@
+body {
+    background-color: darkblue;
+    margin: 0;
+}
+
+.moon {
+    background-color: white;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 4rem;
+    margin: 30px 80px;
+}
+
+.city {
+    display: inline-flex;
+    position: relative;
+    z-index: 2;
+}
+
+.building1 {
+    background-color: grey;
+    height: 300px;
+    width: 150px;
+    margin-top: 100px;
+}
+
+.building2 {
+    background-color: rgb(87, 87, 87);
+    height: 250px;
+    width: 120px;
+    margin-top: 160px;
+}
+
+.building3 {
+    background-color: rgb(171, 171, 171);
+    height: 400px;
+    width: 130px;
+}
+
+.building4 {
+    background-color: rgb(112, 112, 112);
+    height: 200px;
+    width: 100px;
+    margin-top: 220px;
+}
+
+.building5 {
+    background-color: rgb(65, 65, 65);
+    height: 400px;
+    width: 150px;
+}
+
+.grass {
+    background-color: green;
+    height: 80px;
+    width: 100%;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+.water {
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+}
